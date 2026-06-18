@@ -13,6 +13,12 @@ ETH3DMultiViewEvaluation --reconstruction_ply_path reconstruction.ply \
                          --ground_truth_mlp_path scan_alignment.mlp \
                          --tolerances 0.01,0.02,0.05,0.1,0.2,0.5
 ```
+doker version:
+```
+ETH3DMultiViewEvaluation --reconstruction_ply_path pointclouds2test/reconstruction.ply \
+                         --ground_truth_mlp_path pointclouds2test/scan_alignment.mlp \
+                         --tolerances 0.01,0.02,0.05,0.1,0.2,0.5
+```
 
 Description of required program arguments:
 
